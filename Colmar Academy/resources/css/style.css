@@ -1,0 +1,74 @@
+<!Header>
+
+.header {
+  display:flex;
+}
+
+.header .logo img {
+  padding-left:24px;
+}
+span {
+  height: 32px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header {
+  height: 64px;
+}
+nav {
+  float: right;
+  justify-content: space-between;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+<!Banner Section>
+
+.banner {
+  display: flex;
+  background-color: gray;
+}
+.banner .bannerimage img {
+  float: left;
+  display: inline;
+  width: 60%;
+  padding-left: 24px;
+  padding-top:  32px;
+  padding-bottom: 32px;
+  padding-right: 24px;
+  background-color: gray;
+}
+.banner .text {
+  float: both;
+  display: inline;
+  text-align: center;
+  background-color: gray;
+}
+.banner .button span {
+  float: center;
+  background-color: gray;
+  padding: 8px;
+}
+
+<!Firstsection>
+.rightbox img {
+  float: left;
+  display: inline;
+  width: 60%;
+  padding-left: 24px;
+  padding-top:  32px;
+  padding-bottom: 32px;
+  padding-right: 24px;
+}
+
+.leftbox .orientationdate {
+display:inline ;
+}
+.leftbox .ourcampus {
+display: inline;
+}
+.leftbox .ourguestlecture {
+  display: inline;
+}
